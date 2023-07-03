@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Sans+Pro&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+ 
+.container{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.container img {
+    width: 350px;
+}
+
+.header img {
+    width: 200px;
+}
+
+.header { 
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.header h1{
+    margin: 0;
+    font-size: 36px;
+}
+
+.menu {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 4px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: #1eafdb;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px; 
+    border-radius: 5px;
+    transition: 0.3s;
+    opacity: .75;
+}
+.menu a:hover {
+    opacity: 1;
+    background-color: rgba(0,0,0,0.1);
+}
+.menu a.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.copyleft {
+    display: inline-block;
+    top: 2px;
+    position: relative;
+    transform: rotate(180deg);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+th {
+    border-bottom: 2px solid #333;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+.footer img {
+    width: 100px; 
+}
+
+.as_list_wrap {
+    padding-left: 1em;
+}
+
+.as_list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding-bottom: .5em;
+}
+
+a,
+a:visited {
+    color: #1eafdb;
+}
+
+.as_list_member {
+    width: 20%;
+}

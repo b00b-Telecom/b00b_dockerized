@@ -1,0 +1,8 @@
+services:
+  b00b:
+    build: .
+    command: python app.py
+    volumes:
+      - .:/code
+    ports:
+      - "[2a07:54c2:b00b:b00b:b00b:b00b:b00b:b00b]:80:5000"
